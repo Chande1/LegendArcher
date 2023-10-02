@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6106028021633681887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6106028021633681886}
+  - component: {fileID: 6106028021633681878}
+  - component: {fileID: 6106028021633681879}
+  - component: {fileID: 6106028021633681880}
+  - component: {fileID: 6106028021633681881}
+  - component: {fileID: 6106028021633681882}
+  - component: {fileID: 6106028021633681883}
+  - component: {fileID: 6106028021633681884}
+  - component: {fileID: 6106028021633681885}
+  - component: {fileID: 6106028021633681877}
+  - component: {fileID: 6106028021633681876}
+  m_Layer: 0
+  m_Name: MainSpawner_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6106028021633681886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.048626, y: -14.780849, z: -17.702381}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6106028021633681878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c986ebc624c434841bac169330f75aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wave:
+  - {fileID: 6106028021633681879}
+  - {fileID: 6106028021633681880}
+  - {fileID: 6106028021633681881}
+  - {fileID: 6106028021633681882}
+  - {fileID: 6106028021633681883}
+  - {fileID: 6106028021633681884}
+  - {fileID: 6106028021633681885}
+  - {fileID: 6106028021633681877}
+  - {fileID: 6106028021633681876}
+  - {fileID: 6106028021633681876}
+  - {fileID: 6106028021633681876}
+  - {fileID: 6106028021633681876}
+  maxwavecount: 9
+--- !u!114 &6106028021633681879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62624d7d59ebb1a4e9c4a1ecbe0db1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnCount: 0
+  MaxSpawn: 1
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPrefab:
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  StartDelay: 12
+  createTime: 1.5
+  isGameOver: 0
+--- !u!114 &6106028021633681880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62624d7d59ebb1a4e9c4a1ecbe0db1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnCount: 0
+  MaxSpawn: 2
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPrefab:
+  - {fileID: 7810259089969325161, guid: dbfba50e0396d5043be7d50a5f9b376f, type: 3}
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  StartDelay: 22
+  createTime: 1.5
+  isGameOver: 0
+--- !u!114 &6106028021633681881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62624d7d59ebb1a4e9c4a1ecbe0db1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnCount: 0
+  MaxSpawn: 2
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPrefab:
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  StartDelay: 24
+  createTime: 1.5
+  isGameOver: 0
+--- !u!114 &6106028021633681882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62624d7d59ebb1a4e9c4a1ecbe0db1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnCount: 0
+  MaxSpawn: 2
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPrefab:
+  - {fileID: 7810259089969325161, guid: dbfba50e0396d5043be7d50a5f9b376f, type: 3}
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  StartDelay: 20
+  createTime: 1.5
+  isGameOver: 0
+--- !u!114 &6106028021633681883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62624d7d59ebb1a4e9c4a1ecbe0db1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnCount: 0
+  MaxSpawn: 2
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPrefab:
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  StartDelay: 20
+  createTime: 1.5
+  isGameOver: 0
+--- !u!114 &6106028021633681884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62624d7d59ebb1a4e9c4a1ecbe0db1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnCount: 0
+  MaxSpawn: 3
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPrefab:
+  - {fileID: 7810259089969325161, guid: dbfba50e0396d5043be7d50a5f9b376f, type: 3}
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  StartDelay: 24
+  createTime: 1.5
+  isGameOver: 0
+--- !u!114 &6106028021633681885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62624d7d59ebb1a4e9c4a1ecbe0db1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnCount: 0
+  MaxSpawn: 2
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPrefab:
+  - {fileID: 7810259089969325161, guid: dbfba50e0396d5043be7d50a5f9b376f, type: 3}
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  StartDelay: 20
+  createTime: 1.5
+  isGameOver: 0
+--- !u!114 &6106028021633681877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62624d7d59ebb1a4e9c4a1ecbe0db1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnCount: 0
+  MaxSpawn: 1
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPrefab:
+  - {fileID: 526513673299752181, guid: 5a925f27328fecb45a70e55d5b1c1181, type: 3}
+  StartDelay: 5
+  createTime: 1.5
+  isGameOver: 0
+--- !u!114 &6106028021633681876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106028021633681887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62624d7d59ebb1a4e9c4a1ecbe0db1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnCount: 0
+  MaxSpawn: 3
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  monsterPrefab:
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  - {fileID: 7873937473394404883, guid: 4101969baefea774db74ef949028aa68, type: 3}
+  StartDelay: 20
+  createTime: 1.5
+  isGameOver: 0

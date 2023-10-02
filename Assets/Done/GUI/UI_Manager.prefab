@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1466100957217915469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466100957217915471}
+  - component: {fileID: 1466100957217915470}
+  - component: {fileID: 1466100957217915464}
+  - component: {fileID: 1466100957217915465}
+  - component: {fileID: 1466100957217915472}
+  m_Layer: 5
+  m_Name: UI_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1466100957217915471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466100957217915469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1466100957217915470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466100957217915469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26cb8638efffac4193b9595cc32a291, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KillScore: 0
+  WaveMonsterCount: 50
+--- !u!114 &1466100957217915464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466100957217915469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cba7c0c2bc896843afe92b08121a09b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1466100957217915465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466100957217915469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375577761caa8b34eb92831a6fa44111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VRpointer: {fileID: 0}
+  menu: {fileID: 0}
+  menub2: {fileID: 0}
+  menub3: {fileID: 0}
+  menub4: {fileID: 0}
+  menub5: {fileID: 0}
+  menucc: {fileID: 0}
+  exitwindow: {fileID: 0}
+  exitcf: {fileID: 0}
+  exitcc: {fileID: 0}
+  option: {fileID: 0}
+  sound_bar_fill: {fileID: 0}
+  sound_ratio: {fileID: 0}
+  soundu: {fileID: 0}
+  soundd: {fileID: 0}
+  optioncc: {fileID: 0}
+  blur_off: {fileID: 0}
+  blur_on: {fileID: 0}
+  dof_off: {fileID: 0}
+  dof_on: {fileID: 0}
+  bloom_off: {fileID: 0}
+  bloom_on: {fileID: 0}
+  ab_off: {fileID: 0}
+  ab_on: {fileID: 0}
+  difficulty_menu: {fileID: 0}
+  difficulty_stage1hard: {fileID: 0}
+  difficulty_stage1normal: {fileID: 0}
+  difficulty_stage1normal_button: {fileID: 0}
+  difficulty_stage1hard_button: {fileID: 0}
+  difficulty_confirm_cb: {fileID: 0}
+  difficulty_confirm_cbN: {fileID: 0}
+  difficulty_confirm_cbH: {fileID: 0}
+  difficulty_confirm_button: {fileID: 0}
+  difficulty_normal_confirm: {fileID: 0}
+  difficulty_hard_confirm: {fileID: 0}
+  difficulty_hard_confirm_button: {fileID: 0}
+  difficulty_normal_confirm_button: {fileID: 0}
+  postprocess: {fileID: 0}
+  dayskybox: {fileID: 2100000, guid: 617d9be015db68348a623b01ea51a8c5, type: 2}
+  nightskybox: {fileID: 2100000, guid: ceb0a3ed2cb53a94fa21843cc958c52b, type: 2}
+--- !u!114 &1466100957217915472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466100957217915469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 6dde701624a32e1498450700068a1d1d, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0

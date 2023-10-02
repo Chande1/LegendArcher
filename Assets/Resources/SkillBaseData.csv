@@ -1,0 +1,5 @@
+﻿Skill_Type,Cool_Time,Damage(1tick),Tick_Count,Skill_Time,Stiff,Range,Distance,Skill_Start,Skill_End,Cool_Image
+Non,0,3,1,2,TRUE,FALSE,0,270,0,null
+Fire,5,12,1,2,TRUE,FALSE,0,360,330,0
+Ice,10,3,1,7,TRUE,TRUE,4,330,300,1
+Lightning,10,1,6,7,FALSE,TRUE,6,300,270,2
