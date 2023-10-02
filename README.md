@@ -13,3 +13,5 @@
 - 스코어 시스템
 ## 관련 정보
 .[영상 링크](https://youtu.be/U5KGoSxaJhA)
+
+.[주요 코드](Assets/Done/Script)
